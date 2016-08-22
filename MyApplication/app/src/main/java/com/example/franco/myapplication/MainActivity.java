@@ -13,8 +13,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        String motify;
+
         eText = (EditText) findViewById(R.id.GitTestText);
-        eText.setText("Test Rebase");
+
+        motify="Test Rebase" + "root v1";
+        eText.setText(motify);
+
+        //eText.setText("Test Rebase");
 
     }
 }
