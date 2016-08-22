@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         eText = (EditText) findViewById(R.id.GitTestText);
-        eText.setText("Test Rebase 2 2:47");
+        eText.setText("Test Rebase 2 3:27");
 
     }
 }
