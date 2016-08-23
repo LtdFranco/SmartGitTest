@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         eText = (EditText) findViewById(R.id.GitTestText);
 
-        motify="Test Rebase" + "root v1";
+        motify="Test Rebase" + "this is master";
         eText.setText(motify);
 
         //eText.setText("Test Rebase");
