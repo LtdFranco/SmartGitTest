@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         motify="Test Rebase" + "this is master";
         eText.setText(motify);
 
-        //eText.setText("Test Rebase");
+        
 
     }
 }
