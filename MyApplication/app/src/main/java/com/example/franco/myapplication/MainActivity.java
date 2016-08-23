@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         eText = (EditText) findViewById(R.id.GitTestText);
 
-        motify="Test Rebase" + "this is master";
+        motify="Test Rebase" + "this is master we want to merge with brach2";
         eText.setText(motify);
 
         
